@@ -1,9 +1,20 @@
+--[[
+    this is default trashtalk phrases
+    awailable MACROs:
+    {nick} - who was killed
+    {attacker} who is a killer
+    {delay} - sends message with some delay
+    {hs} - makes message headshot-only
+]]
+
 return {
 "ну у него же ник {nick}{delay}",
-"сочненько",
+"{hs}сочненько",
 "прикольно",
 "вкусьненько",
-"ничего себе",
-"чёрт возьми, что же он вытворяет!{delay}",
-"да{delay}"
+"{hs}ничего себе",
+"{hs}чёрт возьми, что же он вытворяет!{delay}",
+"наверное 1, но я не совсем уверен{delay}",
+"{attacker} сравнял тебя с землёй, {nick}",
+"Неловко вышло, {nick}"
 }
